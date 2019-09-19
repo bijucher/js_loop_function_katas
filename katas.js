@@ -52,8 +52,6 @@
         // Your code goes below
         for (let i = 5; i <=100; i +=5) {
             numbers.push(i)
-
-        
         }
 
         return numbers;
@@ -95,9 +93,11 @@
         const numbers = []
 
         // Your code goes below
-
-        
-
+        for(let i=20; i>=1; i--){
+            if(i%2==0){
+                numbers.push(i)
+            }
+        }
         return numbers;
     }
     console.log(evenNumbersBackwards())
@@ -106,7 +106,13 @@
         const numbers = []
 
         // Your code goes below
+        // for (let i=
 
+        for(let i=20;i>=0;i--){
+            if(i%2==1){
+                numbers.push(i)
+            }
+        }
         return numbers;
     }
     console.log(oddNumbersBackwards())
@@ -115,7 +121,9 @@
         const numbers = []
 
         // Your code goes below
-
+        for (let i =100; i >=5; i -=5) {
+            numbers.push(i)
+        }
         return numbers;
     }
     console.log(multiplesOfFiveBackwards())
@@ -124,7 +132,11 @@
         const numbers = []
 
         // Your code goes below
-
+        for (let i= 100;i >=1; i-=1){
+            if ( Math.sqrt (i) % 1=== 0){
+                numbers.push(i)
+            }
+        }
         return numbers;
     }
     console.log(squareNumbersBackwards())
